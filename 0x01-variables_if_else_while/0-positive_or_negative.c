@@ -2,15 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Entry point
-* Disciption: 'check for number if it is positive or negative'
-* Return:  always 0
-*/
+ * main - Entry point
+ * Discription: 'check for number if it is  posetive or nagetive'
+ * Return: always 0
+ */
 int main(void)
 {
 int n;
+
 srand(time(0));
-n = rand'( )' - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
 printf("%d is positive\n", n);
@@ -23,5 +24,5 @@ else
 {
 printf("%d is negative\n", n);
 }
-"return"'(0)';
+return (0);
 }
